@@ -3,7 +3,7 @@ h1{
     margin: 30px;
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     max-width: 500px;
@@ -22,38 +22,38 @@ label {
 
 }
 
-imput,
-textarea{
-    margin: 20px;
+input,
+textarea {
+    margin-bottom: 20px;
     padding: 10px;
+    border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
 }
 
-imput :focus ,
-textarea :focus{
+input:focus,
+textarea:focus {
     outline: none;
     border-color: #007bff;
     box-shadow: 0 0 5px rgba(0,123,255,0.5);
 }
 
-button{
-    margin: 20px;
-    padding: 10px;
-    border: none;
-    border-radius: 4px;
+button {
+    padding: 12px;
     background-color: #007bff;
-    color: #fff;
+    color: white;
+    border: none;
+    border-radius: 4px; 
     font-size: 16px;
     cursor: pointer;
-    transition: blackground-color 0.3s;
+    transition: background-color 0.3s ease;
 }
 
-button :disabled{
+button:disabled{
     background-color: #ccc;
     cursor: not-allowed;
 }
 
-button :hover:not(:disabled){
+button:hover:not(:disabled){
     background-color: #0056b3;
 }
