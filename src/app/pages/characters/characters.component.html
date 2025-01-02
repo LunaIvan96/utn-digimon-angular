@@ -1,0 +1,10 @@
+<h1>Personajes de Digimon</h1>
+<div class="characters">
+@for (character of characters; track character.id) {
+<div class="character">
+    <h3>{{ character.name }}</h3>
+    <p>{{ character.level }}</p>
+    <img [src]="character.img" [alt]="character.name" />
+</div>
+}
+</div>
